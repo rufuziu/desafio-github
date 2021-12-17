@@ -1,0 +1,2 @@
+É uma plataforma de arquivos que são públicos ou não, em nuvem(GitHub), seguros por encriptografia sha1.
+Útil para  análise e manutenção de arquivos de maneira colaborativa.

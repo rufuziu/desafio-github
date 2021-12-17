@@ -1,0 +1,17 @@
+CLI - command line interface
+
+help
+\?
+
+há diferenças para cada sistema operacional
+
+windows				linux
+dir - listar pastas		ls
+cd - selecionar pasta		cd
+cls - limpar terminal		clear (hotkey Ctrl+L)
+mkdir - criar uma pasta		mkdir 
+(hotkey TAB - autocomplete)
+echo - print texto terminal	echo
+del - deletar arquivos		
+rmdir - deletar diretórios	rm
+mv - mover arquivo

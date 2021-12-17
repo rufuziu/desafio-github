@@ -1,0 +1,53 @@
+Os arquivos são encriptografados pelo SHA.
+
+command gitbash
+openssl sha1 arquivo
+
+
+Os objetos GIT
+BLOBS, TREE, COMMITS são formas de encapsulamente, seguro por sha1
+
+BLOBS - onde e como os arquivos são guardados
+
+	'blob 9\0conteudo'
+	key sha1
+metadados
+blob - tipo do objeto
+9 - tamanhado do arquivo
+conteudo - conteudo do arquivo
+
+TREES - armazenam blobs ou outras trees
+	sha1
+
+		tree
+	README(blob) file(blob) lib(tree)
+				simplegit.rb(blob)
+
+COMMITS - é o hash de toda a informação
+	tree, parente, autor, conteudo, timestamp
+
+
+
+commandos git
+
+-git init : iniciar repositório
+-git config --global user.email "email"
+			user.name name
+-git add * : adicionar todos os arquivos
+-git commit : "envelopar" o arquivo ( sha1)
+-git status : monitorar o status dos arquivos
+-git remote add origin "link" : quando no github já existe 
+			um repositório remoto
+
+				tracked
+untracked	unmodified	modified	staged
+
+
+servidor (GitHub)
+remote repository
+
+workspace(terminal usuário)
+working directory
+staging area
+local repository
+	
